@@ -229,7 +229,7 @@ h1.title {
   border: 1px solid #FFFFFF
 }
 
-.search-form__checkbox:hover {
+.search-form__label-text:hover {
   text-decoration: underline;
 }
 
@@ -298,12 +298,13 @@ h1.title {
   padding-right: 3px;
 }
 
-.content__video-card:hover {
+.content__video-card-description-container:hover {
   text-decoration: underline;
 }
 
 .content__video-card:focus {
   outline: none;
+  text-decoration: none;
 }
 
 .content__video-card:focus-visible {
